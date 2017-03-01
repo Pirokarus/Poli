@@ -1,0 +1,47 @@
+body
+{
+    margin: 2% ;
+}
+
+table
+{
+    width: 50%;
+    border: 3px black;
+    border-collapse: collapse;
+    margin: 2% 0%;
+}
+th {
+    text-align: center;
+    background: #ccc;
+    padding: 5px;
+    border: 1px solid black;
+    font-style: italic;
+    font-weight: bold;
+}
+td {
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration-style: dashed;
+}
+p
+{
+    font-style: italic;
+    font-weight: bold;
+    white-space: pre;
+}
+input[type = "text"]
+{
+    width: 5%;
+}
+input[type = "submit"]
+{
+    background: -moz-linear-gradient(#666666, #EBFFFF);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#666666), to(#EBFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+}
